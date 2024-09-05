@@ -10,7 +10,7 @@ $fname=$_POST['fathername'];
 $fnum=$_POST['fnum'];
 $add=$_POST['add'];
 
-$sql="INSERT INTO stu_info(Name,Gender,DOB,MblNo,emailID,Father_Name,Father_MblNo,Address) VALUES ('$name','$gender',$dob,$num,'$mail','$fname',$fnum,'$add')";
+$sql="INSERT INTO stu_info(Name,Gender,DOB,MblNo,emailID,Father_Name,Father_MblNo,Address) VALUES ('$name','$gender','$dob',$num,'$mail','$fname',$fnum,'$add')";
 
 if ($conn->query($sql) === TRUE) 
     {
