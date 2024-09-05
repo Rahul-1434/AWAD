@@ -2,7 +2,6 @@
 include 'dbconn.php';
 
 $name=$_POST['surname'].'.'.$_POST['fname'].' '.$_POST['mname'].' '.$_POST['lname'];
-echo $name;
 $gender=$_POST['gender'];
 $dob=$_POST['dob'];
 $num=$_POST['num'];
