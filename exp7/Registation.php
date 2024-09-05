@@ -17,11 +17,6 @@ if ($conn->query($sql) === TRUE)
     $conn->query($sql);
     echo "record inserted successfully";
     }
-else 
-    {
-        echo "Error: " . $sql . "<br>" . $conn->error;
-    }
-    
 
 $conn->close();
 ?>
