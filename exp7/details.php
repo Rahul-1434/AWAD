@@ -36,6 +36,5 @@ if (isset($_GET['stuID'])) {
     echo "No Student ID provided.";
 }
 
-// Close the connection
 $conn->close();
 ?>
