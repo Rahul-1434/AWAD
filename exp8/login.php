@@ -45,8 +45,8 @@
         $un=$_COOKIE['userName'];
         $pass=$_COOKIE['password'];
         echo "<script>
-            document.getElementByID('userName_ID').value='$un';
-            document.getElementByID('password_ID').value='$pass';
+            document.getElementById('userName_ID').value='$un';
+            document.getElementById('password_ID').value='$pass';
             </script>";
     }
 ?>
