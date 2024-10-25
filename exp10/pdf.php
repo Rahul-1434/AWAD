@@ -8,5 +8,5 @@
     $content = $_SESSION["data"];
     echo $_SESSION["data"];
     $mpdf->WriteHTML($content);
-    $mpdf->Output("data.pdf","I")
+    $mpdf->Output("data.pdf","D")
 ?>
