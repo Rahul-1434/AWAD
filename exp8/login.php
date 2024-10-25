@@ -27,7 +27,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><input type="textbox" name="password" id="password_ID" placeholder="Password"> </td>
+                    <td><input type="password" name="password" id="password_ID" placeholder="Password"> </td>
                 </tr>
                 <tr>
                     <td><input type="checkbox" name="remember" value="1" required> Remember Me</td>
