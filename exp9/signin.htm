@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 275px;
+            height: 250px;
+            border-radius: 7px;
+            background-color: cadetblue;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:antiquewhite;
+        }
+        input{
+            height: 30px;
+            width: 200px;
+            margin: 2px;
+            border-radius: 3px;
+            background-color:darkblue;
+            color:white;
+            border:none;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        </style>
+    </head>
+    <body>
+        <div>
+            <form action="signin.php" method="post">
+                <input ty<pe="text" maxlength="20" size="20" placeholder="User Name" name="user_id"> <br>
+                <input type="text" maxlength="20" size="20" placeholder="password" name="password"> <br>
+                <input type="submit" value="Sigin">
+            </form>
+        </div>
+    </body>
+</html>

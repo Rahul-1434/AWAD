@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:cadetblue;
+            width: 275px;
+            height: 250px;
+            border-radius: 7px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:antiquewhite;
+        }
+        input{
+            height: 30px;
+            width: 200px;
+            margin: 1px;
+            border-radius: 3px;
+            background-color:darkblue;
+            color:white;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        </style>
+    </head>
+    <body>
+        <div>
+            <form action="reg-val.php" method="post">
+                <input type="text" placeholder="User Name" name="user_name"> <br>
+                <input type="text" maxlength="20" size="20" placeholder="User ID" name="user_id"> <br>
+                <input type="password" maxlength="20" size="20" placeholder="password" name="password"> <br>
+                <input type="password" maxlength="20" size="20" placeholder="Re-enter password" name="re-password"> <br>
+                <input type="submit" value="Register">
+            </form>
+        </div>
+    </body>
+</html>
